@@ -718,4 +718,9 @@
 
     <!-- Advanced Controls -->
     <string name="advanced_controls_title">Advanced Controls</string>
+
+    <!-- Recent Mem Bar -->
+    <string name="recents_show_membar_title">Memory bar</string>
+    <string name="recents_show_membar_summary">Show a bar with the device\'s available memory</string>
+
 </resources>
