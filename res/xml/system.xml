@@ -38,6 +38,12 @@
         android:summary="@string/sensor_block_summary"
         android:defaultValue="false" />
 
+    <com.aosip.support.preference.GlobalSettingSwitchPreference
+        android:key="allow_signature_fake"
+        android:title="@string/allow_signature_fake"
+        android:summary="@string/allow_signature_fake_summary"
+        android:defaultValue="false" />
+        
     <Preference 
         android:key="alarm_blocker" 
         android:fragment="com.aosip.owlsnest.advanced.AlarmBlocker" 
