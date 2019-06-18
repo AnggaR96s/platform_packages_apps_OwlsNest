@@ -56,6 +56,16 @@
         android:summary="@string/screen_state_toggles_summary"  
         android:fragment="com.aosip.owlsnest.advanced.ScreenStateToggles" />
 
+    <!-- Advanced Controls -->
+    <Preference
+        android:key="advanced_controls"
+        android:persistent="false"
+        android:title="@string/advanced_controls_title">
+    <intent android:action="android.intent.action.MAIN"
+        android:targetPackage="com.thht.settings.device"
+        android:targetClass="com.thht.settings.device.DeviceSettings"/>
+    </Preference>
+
     <!-- Flashlight on incoming calls -->
     <ListPreference
         android:key="flashlight_on_call"
